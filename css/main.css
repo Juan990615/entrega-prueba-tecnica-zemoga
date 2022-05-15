@@ -338,7 +338,7 @@ li.padding_menu
 /* Mediaqueries  */
 
 /*Samsung s20 FE*/
-@media (min-width: 250px) {
+@media (min-width: 250px) and (max-width: 500px)  {
 
     #hero
     {
