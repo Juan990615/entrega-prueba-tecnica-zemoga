@@ -433,14 +433,18 @@ li.padding_menu
 
 
 
+
     /*Footer*/
 
     .lista li
     {
+        font-size: 3vw;
         padding: 0;
         display: grid;
+        padding-top: 10px;
         padding-left:0;
         padding-right:10px;
+        
     }
 
     .lista a 
@@ -462,6 +466,10 @@ li.padding_menu
         text-align: left;
     }
 
+    .salto-linea {
+        display:inline;
+    }
+
     .lista-redes a 
     {
         color: #000000;
@@ -472,7 +480,12 @@ li.padding_menu
         text-decoration: none;
     }
 
-        
+    .lista-redes img
+    {
+        padding-top: 10px;
+    }
+
+                
   
   }
 
