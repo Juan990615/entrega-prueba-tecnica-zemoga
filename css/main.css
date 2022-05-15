@@ -254,11 +254,59 @@ li.padding_menu
     
 }
 
-.background-card
+.background-card-kanye
 {
-    background-image: url("/assets/img/horizontal.jpg");
-    backdrop-filter: blur(12px);
+    background-image:linear-gradient(to right,rgba(255, 255, 255, 0.445),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),rgb(0, 0, 0)), url("/assets/img/kanye-west.jpeg");
+    
+    
 }
+
+.background-card-zuckerberg
+{
+    background-image:linear-gradient(to right,rgba(255, 255, 255, 0.445),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),rgb(0, 0, 0)), url("/assets/img/zuckerberg.jpg");
+    
+    
+}
+
+.background-card-cristina
+{
+    background-image:linear-gradient(to right,rgba(255, 255, 255, 0.445),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),rgb(0, 0, 0)), url("/assets/img/cristina.jpg");
+    
+    
+}
+
+.background-card-malala
+{
+    background-image:linear-gradient(to right,rgba(255, 255, 255, 0.445),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),rgb(0, 0, 0)), url("/assets/img/malala.jpg");
+    
+    
+}
+
+.background-card-elon
+{
+    background-image:linear-gradient(to right,rgba(255, 255, 255, 0.445),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),rgb(0, 0, 0)), url("/assets/img/elon.jpeg");
+    
+    
+}
+
+.background-card-greta
+{
+    background-image:linear-gradient(to right,rgba(255, 255, 255, 0.445),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),rgb(0, 0, 0)), url("/assets/img/greta.jpg");
+    
+    
+}
+
+.background-card-cristiano
+{
+    background-image:linear-gradient(to right,rgba(255, 255, 255, 0.445),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),rgb(0, 0, 0)), url("/assets/img/cristiano.jpg");
+    
+    
+}
+
+
+
+
+
 
 .btn-primary
 {
@@ -413,7 +461,7 @@ li.padding_menu
         overflow-x: scroll;
         overflow-y: hidden; /*Bloquea el dezlizamiento en el eje Y*/
         display: grid;
-        grid-template-columns: repeat(6, auto);
+        grid-template-columns: repeat(7, auto);
     }
 
     
@@ -564,7 +612,7 @@ li.padding_menu
         overflow-x: scroll;
         overflow-y: hidden; /*Bloquea el dezlizamiento en el eje Y*/
         display: grid;
-        grid-template-columns: repeat(6, auto);
+        grid-template-columns: repeat(7, auto);
     }
 
     
