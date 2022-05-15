@@ -159,7 +159,7 @@ li.padding_menu
     min-height: 1000px;
     height: 80%;
     z-index: inherit;
-    background-position: center center;
+    background-position: top center;
     background-attachment: fixed;
 
 }
@@ -319,6 +319,10 @@ li.padding_menu
      padding-left:0;
      padding-right:10px;
      text-align: left;
+}
+
+.salto-linea {
+    display: none;
 }
 
 .lista-redes a 
@@ -481,8 +485,10 @@ li.padding_menu
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("/assets/img/pope-francis.png");
         background-size: cover;
         min-height: 100px;
-        min-width: 1rem;
+        min-width: 0.5rem;
         background-position: center center;
+
+       
     }
 
     #hero h1
@@ -569,10 +575,13 @@ li.padding_menu
 
     .lista li
     {
+        font-size: 3vw;
         padding: 0;
         display: grid;
+        padding-top: 10px;
         padding-left:0;
         padding-right:10px;
+        
     }
 
     .lista a 
@@ -594,6 +603,10 @@ li.padding_menu
         text-align: left;
     }
 
+    .salto-linea {
+        display:inline;
+    }
+
     .lista-redes a 
     {
         color: #000000;
@@ -602,6 +615,11 @@ li.padding_menu
     .lista-redes a:hover
     {
         text-decoration: none;
+    }
+
+    .lista-redes img
+    {
+        padding-top: 10px;
     }
 
         
